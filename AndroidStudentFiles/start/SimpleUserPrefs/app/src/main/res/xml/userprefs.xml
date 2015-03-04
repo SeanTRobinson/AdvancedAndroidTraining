@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- set a preference category for username and email -->
+    <PreferenceCategory
+        android:title="Sounds and Cheats">
+        <CheckBoxPreference
+            android:key="bSoundOn"
+            android:title="Enable Sound"
+            android:summary="Turn sound on and off in the game"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Character Gender and Race">
+        <ListPreference
+            android:key="gender"
+            android:title="Game Character Gender"
+            android:summary="This is the gender of your game character"
+            android:entries="@array/char_gender_types"
+            android:entryValues="@array/char_genders"
+            android:dialogTitle="Choose a gender for your character:" />
+        <!-- ... also set a list preference for game character race -->
+    </PreferenceCategory>
+</PreferenceScreen>

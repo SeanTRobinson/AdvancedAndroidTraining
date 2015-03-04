@@ -1,0 +1,42 @@
+Android Development Useful URLs
+===============================
+Genymotion (paid) emulator
+https://www.genymotion.com/#!/download
+
+About ART and Dalvik
+https://source.android.com/devices/tech/dalvik/index.html
+
+Google's own relative popularity-dashboard
+http://developer.android.com/about/dashboards/index.html
+
+Android Studio independent help
+http://www.donnfelker.com/androidstudio/
+
+Google training
+http://developer.android.com/training
+
+video from GoogleIO 2009 on Adapters (first 13 mins)
+https://www.youtube.com/watch?v=N6YdwzAvwOA
+
+Greg Nudeman article on Carousel (2013)
+http://www.smashingmagazine.com/2013/02/01/android-carousel-design-pattern/
+
+Android Asset Studio
+http://romannurik.github.io/AndroidAssetStudio/
+
+MAT (Memory Anaylzer Tool for Eclipse, also works in Studio) - download
+http://www.eclipse.org/mat/downloads.php 
+how to use MAT
+http://stackoverflow.com/questions/24547555/how-to-analyze-memory-using-android-studio
+
+Android Holo Colors Generator
+http://android-holo-colors.com/
+
+Sorenson Squeeze Trial
+http://secure.sorensonmedia.com/
+
+LightWorks Video Editing
+http://www.lwks.com/index.php
+
+Pencil wireframe open-source
+http://pencil.evolus.vn/

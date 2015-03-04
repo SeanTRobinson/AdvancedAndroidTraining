@@ -1,0 +1,74 @@
+    // HANDLE BUTTON CLICKS
+        // Handle Toast Button
+        Button launchToast = (Button) findViewById(R.id.Button_Toast);
+        launchToast.setOnClickListener(new View.OnClickListener() {
+        	@Override
+        	public void onClick(View v) {
+            	Toast.makeText(SimpleFragDialogActivity.this,
+            			"This is a toast of the toast broadcasting system. This is only a toast.",
+            			Toast.LENGTH_SHORT).show();
+            }
+        });
+        // Handle Basic Dialog Button
+        Button launchBasicDialog = (Button) findViewById(R.id.Button_SimpleDialog);
+        launchBasicDialog.setOnClickListener(new View.OnClickListener() {
+        	@Override
+        	public void onClick(View v) {
+        		DialogFragment newFragment = BasicDialogFragment.newInstance();
+				showDialogFragment(newFragment);
+            }
+        });
+        // Handle Alert Dialog Button
+        Button launchAlertDialog = (Button) findViewById(R.id.Button_AlertDialog);
+        launchAlertDialog.setOnClickListener(new View.OnClickListener() {
+        	@Override
+        	public void onClick(View v) {
+				DialogFragment newFragment = AlertDialogFragment.newInstance();
+				showDialogFragment(newFragment);
+	        }
+        });
+        // Handle Character Picker Button
+        Button launchCharDialog = (Button) findViewById(R.id.Button_CharacterPickerDialog);
+        launchCharDialog.setOnClickListener(new View.OnClickListener() {
+        	@Override
+        	public void onClick(View v) {
+        		DialogFragment newFragment = CharacterPickerDialogFragment.newInstance();
+        		showDialogFragment(newFragment);
+	        }
+        });
+        // Handle Date Picker Dialog Button
+        Button launchDateDialog = (Button) findViewById(R.id.Button_DatePickerDialog);
+        launchDateDialog.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+        		DialogFragment newFragment = DatePickerDialogFragment.newInstance();
+        		showDialogFragment(newFragment);
+			}
+		});
+        // Handle Progress Dialog Button
+        Button launchProgressDialog = (Button) findViewById(R.id.Button_ProgressDialog);
+        launchProgressDialog.setOnClickListener(new View.OnClickListener() {
+        	@Override
+        	public void onClick(View v) {
+        		DialogFragment newFragment = ProgressDialogFragment.newInstance();
+        		showDialogFragment(newFragment);
+            }
+        });
+        // Handle Time Picker Dialog Button
+        Button launchTimeDialog = (Button) findViewById(R.id.Button_TimePickerDialog);
+        launchTimeDialog.setOnClickListener(new View.OnClickListener() {
+        	@Override
+        	public void onClick(View v) {
+        		DialogFragment newFragment = TimePickerDialogFragment.newInstance();
+        		showDialogFragment(newFragment);
+        	}
+        });
+        // Handle Custom Dialog Button
+        Button launchCustomDialog = (Button) findViewById(R.id.Button_CustomDialog);
+        launchCustomDialog.setOnClickListener(new View.OnClickListener() {
+        	@Override
+        	public void onClick(View v) {
+        		DialogFragment newFragment = CustomDialogFragment.newInstance();
+        		showDialogFragment(newFragment);
+        	}
+        });
