@@ -10,6 +10,9 @@ public class FragmentHostActivity extends FragmentActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        setContentView(R.layout.fragment_host);
+        fragment = (DemoFragment) getSupportFragmentManager().findFragmentById(R.id.demo_fragment);
+        fragment.setTitleText(getString(R.string.fragmenthostactivity));
+        fragment.setButtonText("Test text");
     }
 }

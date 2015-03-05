@@ -21,7 +21,7 @@
             android:text="Select an option to start the demo"
             android:textSize="14dp" />
 
-        <!--<Button
+        <Button
             android:id="@+id/ui_demo_btn"
             android:layout_width="250dp"
             android:layout_height="50dp"
@@ -29,9 +29,9 @@
             android:layout_marginTop="20dp"
             android:text="Bad UI Demo"
             android:textSize="18sp"
-            android:textStyle="bold" />-->
+            android:textStyle="bold" />
 
-        <!--<Button
+        <Button
             android:id="@+id/goodui_demo_btn"
             android:layout_width="250dp"
             android:layout_height="50dp"
@@ -39,9 +39,9 @@
             android:layout_marginTop="20dp"
             android:text="Good UI Demo"
             android:textSize="18sp"
-            android:textStyle="bold" />-->
+            android:textStyle="bold" />
 
-        <!--<Button
+        <Button
             android:id="@+id/memory_demo_btn"
             android:layout_width="250dp"
             android:layout_height="50dp"
@@ -49,9 +49,9 @@
             android:layout_marginTop="20dp"
             android:text="Memory Demo"
             android:textSize="18sp"
-            android:textStyle="bold" />-->
+            android:textStyle="bold" />
 
-        <!--<Button
+        <Button
             android:id="@+id/logcat_demo_btn"
             android:layout_width="250dp"
             android:layout_height="50dp"
@@ -59,9 +59,9 @@
             android:layout_marginTop="20dp"
             android:text="Logcat Demo"
             android:textSize="18sp"
-            android:textStyle="bold" />-->
+            android:textStyle="bold" />
 
-        <!--<Button
+        <Button
             android:id="@+id/img_demo_btn"
             android:layout_width="250dp"
             android:layout_height="50dp"
@@ -69,9 +69,9 @@
             android:layout_marginTop="20dp"
             android:text="Image Demo"
             android:textSize="18sp"
-            android:textStyle="bold" />-->
+            android:textStyle="bold" />
 
-        <!--<Button
+        <Button
             android:id="@+id/fragment_demo_btn"
             android:layout_width="250dp"
             android:layout_height="50dp"
@@ -79,9 +79,9 @@
             android:layout_marginTop="20dp"
             android:text="Fragment Demo"
             android:textSize="18sp"
-            android:textStyle="bold" />-->
+            android:textStyle="bold" />
 
-        <!--<Button
+        <Button
             android:id="@+id/localization_btn"
             android:layout_width="250dp"
             android:layout_height="50dp"
@@ -89,9 +89,9 @@
             android:layout_marginTop="20dp"
             android:text="Localization Demo"
             android:textSize="18sp"
-            android:textStyle="bold" />-->
+            android:textStyle="bold" />
         
-        <!--<Button
+        <Button
             android:id="@+id/debug_btn"
             android:layout_width="250dp"
             android:layout_height="50dp"
@@ -99,7 +99,7 @@
             android:layout_marginTop="20dp"
             android:text="Debug Demo"
             android:textSize="18sp"
-            android:textStyle="bold" />-->
+            android:textStyle="bold" />
     </LinearLayout>
 
 </ScrollView>

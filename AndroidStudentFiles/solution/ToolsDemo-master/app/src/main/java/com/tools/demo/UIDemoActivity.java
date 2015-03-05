@@ -1,15 +1,8 @@
 package com.tools.demo;
 
 import android.app.Activity;
-import android.content.SharedPreferences;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.StrictMode;
-import android.preference.PreferenceManager;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
 
 public class UIDemoActivity extends Activity {
 	private boolean DEVELOPER_MODE = true;
@@ -17,9 +10,16 @@ public class UIDemoActivity extends Activity {
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-
+        if (DEVELOPER_MODE) {
+            StrictMode.enableDefaults();
+            super.onCreate(savedInstanceState);
+            initialiseViews();
+        }
 	}
 
+    private void initialiseViews() {
+        setContentView(R.layout.baduidemo);
+    }
 
 	/**
 	 * Do something off the UI thread

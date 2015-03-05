@@ -11,7 +11,8 @@
 
 
 
-    <com.survivingwithandroid.endlessadapter.EndlessListView android:id="@+id/el"
+    <com.example.endlessadapter.EndlessListView
+        android:id="@+id/el"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"  />
 
